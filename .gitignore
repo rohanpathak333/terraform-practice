@@ -1,0 +1,33 @@
+# Terraform local state
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Local override files (per‑developer config)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# .terraform working directory (providers, modules, plugins)
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive variable files (agar use kare)
+*.tfvars
+*.tfvars.json
+secret.auto.tfvars
+*.auto.tfvars
+
+# Local environment / editor
+*.log
+.vscode/
+.idea/
+*.swp
+*.tmp
+.DS_Store
